@@ -1,6 +1,6 @@
 ---
 - name: Installing and starting the HTTPD service.
-  hosts: apphosts
+  hosts: all
   become: true
   tasks:
   - name: Insalling httpd service
